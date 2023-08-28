@@ -1,4 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+
 * {
     margin: 0; 
     padding: 0; 
@@ -6,15 +8,20 @@
 }
 
 body {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    background-color: #f0f0f0; 
+    font-family: 'Alegreya Sans';
+    background-color: #d4e8f5;
+    
 }
 
 header {
-    background-color: #5fb8f3; 
+    background-color: #79b8e2; 
     color: #fff; 
     text-align: center; 
-    padding: 20px; 
+    padding: 30px; 
+}
+
+header h1 {
+    margin-bottom: 15px;
 }
 
 nav ul {
@@ -23,14 +30,15 @@ nav ul {
 
 nav li {
     display: inline; 
-    margin-right: 20px; 
+    margin-right: 40px; 
     box-shadow: #2e5f80;
+    padding: 10px;
 }
 
 nav a {
     text-decoration: none; 
     color: #fff; 
-    font-weight: bold; 
+    font-weight: bold;      
 }
 
 main {
@@ -54,9 +62,10 @@ main {
 }
 
 .card button {
-    background-color: #5fb8f3;
+    background-color: #79b8e2;
     color: #fff;
     border: none;
+    border-radius: 12px 12px 12px 12px;
     padding: 10px 20px;
     margin-top: 15px;
     cursor: pointer; 
@@ -68,10 +77,22 @@ main {
 }
 
 footer {
-    background-color: #5fb8f3;
-    color: #;
+    background-color: #79b8e2;
+    color: #fff ;
     text-align: center;
     padding: 1rem;
 }
+
+nav li {
+    transition: all 0.2s ease;
+}
+
+nav li:hover {
+    background-color: #1c71aa;
+    border-radius: 12px 12px 12px 12px;
+    cursor: pointer; 
+    
+}
+
 
 
