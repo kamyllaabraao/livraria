@@ -94,5 +94,14 @@ nav li:hover {
     
 }
 
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6696b6;
+    box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
+}
+
 
 
