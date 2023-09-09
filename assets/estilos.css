@@ -103,5 +103,95 @@ nav li:hover {
     box-shadow: 0 2px 4px rgba(red, green, blue, alpha);
 }
 
+form {
+    overflow: hidden;
+}
+
+form fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form legend {
+    font-weight: bold;
+    color: white;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #555;
+}
+
+radio-group label {
+    display: inline;
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.input-check {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.input-check input[type="checkbox"] + label {
+    display: inline-block;
+    font-weight: normal;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+    height: 120px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: white;
+    color: rgb(66, 64, 64);
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button [type="reset"] {
+    background-color: #6c757d;
+}
+
+button:hover {
+        background-color: #4885c7;
+
+}
+
+
+
 
 
