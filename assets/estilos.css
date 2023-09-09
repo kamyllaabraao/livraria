@@ -173,8 +173,8 @@ select {
 }
 
 button {
-    background-color: white;
-    color: rgb(66, 64, 64);
+    background-color: #007bff;
+    color: white;
     border: none;
     border-radius: 4px;
     padding: 5px;
@@ -182,13 +182,17 @@ button {
     margin-top: 10px;
 }
 
-button [type="reset"] {
-    background-color: #6c757d;
+button[type="reset"] {
+    background-color: #585d61;
 }
 
 button:hover {
-        background-color: #4885c7;
+        background-color: #2b5179;
 
+}
+
+footer {
+    background-color: #6696b6;
 }
 
 
